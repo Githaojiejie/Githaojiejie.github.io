@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://githaojiejie.github.io/</id>
     <title>我也有一颗糖</title>
-    <updated>2021-08-19T11:03:33.455Z</updated>
+    <updated>2021-08-19T11:32:49.938Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://githaojiejie.github.io/"/>
     <link rel="self" href="https://githaojiejie.github.io/atom.xml"/>
@@ -10,6 +10,36 @@
     <logo>https://githaojiejie.github.io/images/avatar.png</logo>
     <icon>https://githaojiejie.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 我也有一颗糖</rights>
+    <entry>
+        <title type="html"><![CDATA[ILRuntime]]></title>
+        <id>https://githaojiejie.github.io/post/ilruntime/</id>
+        <link href="https://githaojiejie.github.io/post/ilruntime/">
+        </link>
+        <updated>2021-08-19T11:25:49.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>
+<p>基础知识<br>
+官方文档：https://ourpalm.github.io/ILRuntime/<br>
+离线帮助文档目录：ILRuntime\docs\source\src\v1\guide<br>
+官方Unity3D热更例子工程：https://github.com/Ourpalm/ILRuntimeU3D/</p>
+</li>
+<li>
+<p>ILRuntime肯定可以做到IOS的热更。</p>
+</li>
+<li>
+<p>本文中的名词解释：</p>
+<p>域 : 应用程序的上下文，可以理解为使用热更之后，在游戏中存在两个域，一个是游戏主程序，另一     个是热更域。</p>
+<p>CLR: Unity脚本(C#)的公共运行库，公共运行环境</p>
+<p>Assembly-CSharp.dll: Unity脚本(C#)的编译成的dll，非特殊目录下的脚本都放在这个dll      下。安卓下可通过反射获取方法和变量。</p>
+<p>hotFix.dll： 指热更工程生成的dll，和Unity主工程是两个不同的dll。</p>
+</li>
+<li>
+<p>调试插件<br>
+http://ourpalm.github.io/ILRuntime/public/v1/guide/tutorial.html</p>
+</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[不期而遇的夏天 - 陈奕迅]]></title>
         <id>https://githaojiejie.github.io/post/bu-qi-er-yu-de-xia-tian-chen-yi-xun/</id>

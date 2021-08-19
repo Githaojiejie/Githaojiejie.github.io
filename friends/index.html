@@ -111,7 +111,7 @@
                         src='https://githaojiejie.github.io//media/images/music.png' alt="音乐播放器" class="musicbtn"></i></a>
         </div>
         <div class="avatar-border">
-            <img src="https://githaojiejie.github.io//images/avatar.png?v=1629349022887" class="avatar">
+            <img src="https://githaojiejie.github.io//images/avatar.png?v=1629349244610" class="avatar">
         </div>
         <div class="sitename">Gridea</div>
         <span class="description" data-text='["温故而知新"]'>&nbsp;</span>
@@ -133,15 +133,27 @@
     <div class="share-button">
         <span></span>
         
+        <a href="https://github.com/Githaojiejie/Githaojiejie.github.io" target="_blank"><i style="font-size: 20px;"><img class="icon"
+                    src="https://githaojiejie.github.io//media/images/github.png" alt=""></i></a>
+        
+        
+        <a onclick="showqq()"><i style="font-size: 20px;"><img class="icon"
+                    src="https://githaojiejie.github.io//media/images/QQ.png" alt=""></i></a>
+        
+        
+        <a href="https://www.zhihu.com/people/su-zui-3-44" target="_blank"><i style="font-size: 20px;"><img class="icon"
+                    src="https://githaojiejie.github.io//media/images/zh.png" alt=""></i></a>
         
         
         
+        <a onclick="showWechat()"><i style="font-size: 20px;"><img class="icon"
+                    src="https://githaojiejie.github.io//media/images/wechat.png" alt=""></i></a>
         
         
         
         
     </div>
-    <div id="qq" style="display:none"></div>
+    <div id="qq" style="display:none">994418041</div>
     <!------------ 加载菜单按钮👇 ------------------------->
     <div class="menucontainer">
         
@@ -225,6 +237,16 @@
             </div>
             <div>
                 
+                <script async
+                    src="https://cdn.jsdelivr.net/gh/850552586/ericamcdn@0.1/js/busuanzi.pure.mini.js"></script>
+                <div id="vistornum" style="margin:0">
+                    <span id="busuanzi_container_site_uv">
+                        <i class="fa fa-heart" aria-hidden="true" style="color: red;"></i> 总访问量:<span
+                            id="busuanzi_value_site_pv"></span>&nbsp;&nbsp;|&nbsp;&nbsp;
+                        <i class="fa fa-user-o" aria-hidden="true"></i> 访问人数:<span id="busuanzi_value_site_uv"></span>
+                    </span>
+                </div>
+                
             </div>
             <div class="copyright" style="color:white;text-align: center;">Copyright © 2020  备案号: 鄂ICP备...号
             </div>
@@ -284,7 +306,7 @@
 <!------ 根据自定义配置声明变量👇 --------------------->
     
     <script>
-        let postnumChoice = false
+        let postnumChoice = true
     </script>
     
     
@@ -415,7 +437,7 @@
     }
 
     function showWechat() {
-        var wechat = '';
+        var wechat = '994418041';
         alert("博主微信号：" + wechat);
         return false;
     }

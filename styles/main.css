@@ -3228,6 +3228,33 @@ a {
   }
 }
 
+      .posttitlewithoutimg {
+        color: #ff6b6b;
+      }
+    
+        .menubutton {
+          color: #fa5252;
+        }
+
+        .menucontainer span::before,
+        .menucontainer span::after {
+          color:#fa5252;
+          content: attr(data-text);
+          position: absolute;
+          top: -0.5em;
+          left: 0;
+          width: 100%;
+          transition: 0.3s ease-out;
+        }
+
+        .menubutton:visited{
+          color: #fa5252;
+        }
+      
+        .posttitle {
+          color: #fa5252;
+        }
+      
         .navbar-inverse{
           background-color: #868e96;
         }

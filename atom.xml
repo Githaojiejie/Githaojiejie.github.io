@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://githaojiejie.github.io/</id>
     <title>我也有一颗糖</title>
-    <updated>2021-08-23T02:45:49.878Z</updated>
+    <updated>2021-08-23T02:47:47.522Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://githaojiejie.github.io/"/>
     <link rel="self" href="https://githaojiejie.github.io/atom.xml"/>
@@ -21,7 +21,9 @@
 <p>但车窗太厚了，无论你的声音有多大，窗外都听不到。</p>
 <p>但他似乎知道你说了什么，他看着你，笑着对你说：别哭，没事儿，我到站了，你要继续走，因为路还长着呢。</p>
 <p>你不知道他们下车后去了哪里？但你相信他们去了更好的地方，你相信他们现在过的都很好。</p>
-<iframe  class="music" frameborder="no" src="//music.163.com/outchain/player?type=1&id=89680147&auto=1&height=90"></iframe>
+<div class="tvcontainer">
+<iframe class="tv"  src="https://player.bilibili.com/player.html?cid=145147963&aid=84267566&page=1&as_wide=1&high_quality=1&danmaku=0"frameborder="no" scrolling="no"></iframe>
+</div>
 <p>​																																																								2021年8月20日 周五晚</p>
 ]]></content>
     </entry>

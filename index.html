@@ -117,7 +117,7 @@
                         src='https://githaojiejie.github.io//media/images/music.png' alt="音乐播放器" class="musicbtn"></i></a>
         </div>
         <div class="avatar-border">
-            <img src="https://githaojiejie.github.io//images/avatar.png?v=1629701275330" class="avatar">
+            <img src="https://githaojiejie.github.io//images/avatar.png?v=1629701317410" class="avatar">
         </div>
         <div class="sitename">我也有一颗糖</div>
         <span class="description" data-text='["为什么你不在, 问山风你会回来..."]'>&nbsp;</span>
@@ -1045,7 +1045,7 @@ menulist.eq(i).show();
                         <!-- 移动端欢迎页 -->
 <div class="welcome">
     <div class="avatar-border">
-        <img src="https://githaojiejie.github.io//images/avatar.png?v=1629701275330" class="avatar">
+        <img src="https://githaojiejie.github.io//images/avatar.png?v=1629701317410" class="avatar">
     </div>
     <span class="mobiledescribtion"></span>
 </div>
@@ -1130,36 +1130,21 @@ menulist.eq(i).show();
     $(".plbg").fadeIn(200);
 </script>
                     </div>
-                    <div style="display:none">
-        <div id="vcomments">
-        </div>
-        <script>
-            var valine = new Valine();
-            var curpath = window.location.pathname;
-            if (curpath[curpath.length - 1] != '/')
-                curpath += '/'
-            valine.init({
-                el: '#vcomments',
-                appId: 'qUw4LRs9I9z0yTYykyBA5Bfz-gzGzoHsz',
-                appKey: 'FwSVaB0vLkxOjnDiUrB8Ffbo',
-                notify: true,
-                verify: false,
-                avatar: 'retro',
-                pageSize: 10,
-                placeholder: '既然来了，何不畅所欲言呢？',
-                recordIP: true,
-                path: curpath //[重点] 记得添加path路径
-            });
-        </script>
-        <script type="text/javascript">
-            var jrsc = '既然来了，何不畅所欲言呢？';
-            jinrishici.load(function (result) {
-                // 自己的处理逻辑
-                jrsc = result.data.content + "\n「" + result.data.origin.title + "」" + result.data.origin
-                    .dynasty + " · " + result.data.origin.author;
-            });
-        </script>
-
+                    <div style="display:none"><!--评论显示区，请插入合适的位置-->
+<div id="comment"></div>
+<!--Leancloud 操作库:-->
+<script src="//cdn1.lncld.net/static/js/3.6.1/av-min.js"></script>
+<!--Valine 的核心代码库-->
+<script src="//cdn.jsdelivr.net/npm/valine@1.4.4/dist/Valine.min.js"></script>
+<script>
+    new Valine({
+        el:'#comment',
+        appId: qUw4LRs9I9z0yTYykyBA5Bfz-gzGzoHsz
+        appKey: FwSVaB0vLkxOjnDiUrB8Ffbo
+        placeholder: 'ヾﾉ≧∀≦)o快来评论一下吧!',
+        avatar:''
+    });
+</script>
 </div>
                     <link rel="stylesheet" href="https://githaojiejie.github.io//media/css/font-awesome.css">
 
